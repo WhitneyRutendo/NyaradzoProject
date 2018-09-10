@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MyMaterialDesign</string>
+    <string name="register_using_facebook">Register using Facebook</string>
+    <string name="t_shirt_size">T Shirt Size</string>
+    <string name="gender">Gender</string>
+    <string name="register">Register</string>
+    <string name="your_nmae">Your Nmae</string>
+    <string name="name">Name</string>
+    <string name="your_surname">Your Surname</string>
+    <string name="surname">Surname</string>
+    <string name="next_of_kin_phone">Next of kin phone</string>
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="email_address">Email Address</string>
+    <string name="your_contact_hone">Your Contact hone</string>
+    <string name="contact_phone">Contact Phone</string>
+    <string name="your_country">Your Country</string>
+    <string name="nationality">Nationality</string>
+    <string name="company_being_represented">Company being represented</string>
+    <string name="save">Save</string>
+    <string name="company">Company</string>
+
+    <string-array name = "gender_array">
+    <item>Male</item>
+    <item>Female</item>
+    </string-array>
+
+    <string-array name = "tshirtsize_array">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>XLarge</item>
+    </string-array>
+
+
+
+</resources>

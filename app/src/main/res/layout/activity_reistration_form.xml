@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nyaradzo"
+    tools:context=".RegistrationForm">
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/emergencyEditText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/your_contact_hone"
+        android:inputType="phone"
+        android:text="@string/contact_phone"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/emergencyEditText"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="@string/next_of_kin_phone"
+        android:inputType="phone"
+        android:text="@string/emergency_contact"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="282dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="154dp"
+        android:ems="10"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress"
+        android:text="@string/email_address"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <EditText
+        android:id="@+id/nationalityEditText"
+        android:layout_width="285dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="229dp"
+        android:ems="10"
+        android:hint="@string/your_country"
+        android:inputType="text"
+        android:text="@string/nationality" />
+
+    <EditText
+        android:id="@+id/companyEditText"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="194dp"
+        android:ems="10"
+        android:hint="@string/company_being_represented"
+        android:inputType="text"
+        android:text="@string/company" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="88dp"
+        android:layout_marginStart="123dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/save"
+        android:textStyle="bold" />
+</RelativeLayout>
